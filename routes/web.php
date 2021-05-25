@@ -19,5 +19,6 @@ Route::get('/', function () {
 
 
 Route::get('/prueba', function () {
-    return "Desde laravel con docker";
+    
+    return "Desde laravel";
 });
